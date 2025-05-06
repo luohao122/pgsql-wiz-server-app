@@ -1,0 +1,1 @@
+# pgsql-wiz-server-app
