@@ -1,8 +1,10 @@
-import { envConfig } from '@/config/env.config';
-import { DataSource, DataSourceOptions } from 'typeorm';
 import { join } from 'path';
+import { DataSource, DataSourceOptions } from 'typeorm';
+
+import { envConfig } from '@/config/env.config';
 import { User } from '@/entities/user.entity';
 import { ChartInfo } from '@/entities/chartInfo.entity';
+
 import { Datasource } from '@/entities/datasource.entity';
 
 const databaseConfig: DataSourceOptions = {
